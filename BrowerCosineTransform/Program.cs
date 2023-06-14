@@ -7,7 +7,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Bitmap image = new Bitmap(Image.FromFile("./flower.jpg"));
+        Bitmap image = new Bitmap(Image.FromFile("./flower.png"));
 
         EncodedImage encodedChannels = DCTOrchestrator.CompressImage(image);
 
